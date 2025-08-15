@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="asserts\images\base.bmp" />
+    <None Remove="asserts\images\camera.png" />
+    <None Remove="asserts\images\dashBoard.png" />
+    <None Remove="asserts\images\live.png" />
+    <None Remove="asserts\images\logo.ico" />
+    <None Remove="asserts\images\logo.png" />
+    <None Remove="asserts\images\notification.png" />
+    <None Remove="asserts\images\recording.png" />
+    <None Remove="asserts\images\settings.png" />
+    <None Remove="asserts\images\upgraded.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="asserts\images\camera.png" />
+    <Resource Include="asserts\images\dashBoard.png" />
+    <Resource Include="asserts\images\live.png" />
+    <Resource Include="asserts\images\logo.ico" />
+    <Resource Include="asserts\images\logo.png" />
+    <Resource Include="asserts\images\notification.png" />
+    <Resource Include="asserts\images\recording.png" />
+    <Resource Include="asserts\images\settings.png" />
+    <Resource Include="asserts\images\upgraded.png" />
+  </ItemGroup>
+
+</Project>

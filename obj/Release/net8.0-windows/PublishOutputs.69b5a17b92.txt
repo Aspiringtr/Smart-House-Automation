@@ -1,0 +1,5 @@
+D:\ff\cctv.exe
+D:\ff\cctv.dll
+D:\ff\cctv.deps.json
+D:\ff\cctv.runtimeconfig.json
+D:\ff\cctv.pdb
